@@ -30,7 +30,7 @@ section {
 
 form {
     line-height: 3.4em;
-    margin: 100px 0 0 50px;
+    margin: 0px 0 0 50px;
     text-align: right;
     width: 30%;
     float: left;
@@ -46,10 +46,11 @@ form input {
 }
 
 div {
-    float: right;
-    margin: 50px 50px 0 0;
-    height: 460px;
     background-color: antiquewhite;
+    position: absolute;
+    top: 80px;
+    left: 650px;
+    height: auto;
     padding: 30px;
     font-family: 'earwig_factoryregular';
     font-size: 2.5em;
@@ -75,4 +76,56 @@ em {
 }
 .backgroundChange {
     background-image: url(background-2.jpg);
+}
+
+header {
+    font-family: 'oswald', sans-serif;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    width: 400px;
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+
+input[type=text] {
+    font-family: 'Dosis', sans-serif;
+}
+
+input[type=submit] {
+    font-family: 'Dosis', sans-serif;
+    padding: 10px;
+    background: #fff;
+    letter-spacing: 1px;
+    border: none;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+input[type=reset] {
+    font-family: 'Dosis', sans-serif;
+    padding: 10px;
+    background: #fff;
+    letter-spacing: 1px;
+    border: none;
+}
+
+input[type=reset]:hover {
+    color: #bf9cbd;
+}
+input[type=submit]:hover {
+    color: #bf9cbd;
+}
+
+footer {
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #ded3c4;
+}
+
+footer:hover {
+    letter-spacing: 2px;
+    
 }

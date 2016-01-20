@@ -53,6 +53,7 @@ window.onload = function() {
         ransomNote.className = "hide";
         //***backgroundChange
         backgroundChange.className = "backgroundChangeHide";
+        
     }
-    
+   return false; 
 } //end onload

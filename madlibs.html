@@ -6,7 +6,7 @@
         
         <link rel="stylesheet" type="text/css" href="madlibs.css">
         
-        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald|Dosis' rel='stylesheet' type='text/css'>
         
         <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.21/p5.js"></script>
         <script language="javascript" src="js/madlibs.js"></script>
@@ -14,33 +14,37 @@
     </head>
     <body class="backgroundChangeHide">
         <section id="backgroundChange">
+            <header>What the<br> lib is this?</header>
             <form name="f">
                 <label>name:</label>
-                <input type="text" name="userName">
+                <input type="text" name="userName" placeholder="your name">
                 <br>
                 <label>number:</label>
-                <input type="text" name="userNumber">
+                <input type="text" name="userNumber" placeholder="#">
                 <br>
                 <label>type of bag:</label>
-                <input type="text" name="userBag">
+                <input type="text" name="userBag" placeholder="duffle, purse, etc">
                 <br>
                 <label>street:</label>
-                <input type="text" name="streetOne">
+                <input type="text" name="streetOne" placeholder="street name">
                 <br>
                 <label>street:</label>
-                <input type="text" name="streetTwo">
+                <input type="text" name="streetTwo" placeholder="street name">
                 <br>
                 
-                <input type="reset" value="reset" />
-                <input type="submit" value="what's going on?">  
+                <input id=button type="reset" value="reset" />
+                <input id=button type="submit" value="what's going on?">  
             </form>
+            </section>
             
             <div class="hide">
                 <p id="ransomNote"></p>
             </div>
             
             
-        </section>
-    
+        
+        
+        <footer>
+        back to portal</footer>
     </body>
 </html>
