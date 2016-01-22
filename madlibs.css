@@ -124,7 +124,7 @@ footer {
     font-family: 'Oswald', sans-serif;
     color: #ded3c4;
 }
-a:link {
+footer:link {
     text-decoration: none;
     color: #ded3c4;
 }
