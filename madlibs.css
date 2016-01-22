@@ -131,7 +131,7 @@ a:link {
 a:visited {
     color: #ded3c4; 
 }
-footer:hover {
+a:hover {
     letter-spacing: 2px; 
 }
 
