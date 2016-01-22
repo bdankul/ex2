@@ -124,11 +124,11 @@ footer {
     font-family: 'Oswald', sans-serif;
     color: #ded3c4;
 }
-footer:link {
+a:link {
     text-decoration: none;
     color: #ded3c4;
 }
-footer:visited {
+a:visited {
     color: #ded3c4; 
 }
 footer:hover {
