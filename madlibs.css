@@ -79,14 +79,15 @@ em {
 }
 
 header {
-    font-family: 'oswald', sans-serif;
+    font-family: 'dosis', sans-serif;
     font-size: 4.5em;
     text-transform: uppercase;
     width: 400px;
     text-align: right;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 45px;
     margin-bottom: 30px;
+    color: #16223c;
 }
 
 input[type=text] {
